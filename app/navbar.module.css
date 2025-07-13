@@ -1,0 +1,36 @@
+
+.navcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 1rem 2rem;
+  margin: 2rem auto;
+  max-width: 500px;
+  gap: 0.5rem;
+  border: 1px solid #efd09e;
+  box-sizing: border-box;
+  flex-wrap: wrap; /* makes it responsive on small screens */
+    position: fixed;                 /* ✅ Makes it stick to the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;                   /* ✅ Keeps it above all content */
+
+}
+
+.navLink {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+.navLink:hover {
+  color: #ffffff; /* Change color on hover */
+  text-decoration: underline;
+}
+.active {
+  color: #efd09e; /* Active page color */
+  font-weight: bold;
+
+}

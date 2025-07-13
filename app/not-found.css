@@ -1,0 +1,25 @@
+/* app/not-found.css */
+.notFoundContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1a1a1a;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.notFoundContainer h1 {
+  font-size: 8rem;
+  color: #efd09e;
+  margin-bottom: 1rem;
+}
+.notFoundContainer p {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+.highlight {
+  color: #efd09e;
+  font-weight: bold;
+}

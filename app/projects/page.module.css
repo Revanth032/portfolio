@@ -1,0 +1,143 @@
+.container{
+margin-top: 10rem;
+}
+.container h1{
+font-size: 3.5rem;
+font-weight: 600;   
+margin-left: 32rem;
+color:whitesmoke;
+word-spacing: 1rem;
+}
+.highlight{
+    color: #efd09e;
+}
+
+.container h2{
+    margin-top: 3rem;
+    margin-left: 35rem;
+    color:whitesmoke;
+    font-size: 2rem;
+    padding-right: 25rem;
+    line-height: 3rem;
+}
+
+.projects{
+    margin-top: 3rem;
+    color:whitesmoke;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    padding: 0 8rem;
+    margin-bottom: 15rem;
+    
+}
+.project{
+    margin-top: 1rem;
+    color:whitesmoke;
+    font-size: 1.2rem;
+    height: 45rem;
+    width: 45rem;
+    background-color: #1a1a1a;
+    border-radius: 1rem;    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: transform 0.3s ease;
+}
+.project:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.projectImage{
+    height: 20rem;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    padding: 1rem;
+}
+.project h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: 2rem;
+    color: #efd09e;
+}
+.projectDescription{
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: whitesmoke;
+}
+.button{
+   width: 85%;
+   height: 3rem;
+   background-color: transparent;
+   border: 2px solid whitesmoke;
+   font-size: 1rem;
+   font-weight: 600;
+    color: whitesmoke;
+    margin-left: 2rem;
+      display: flex;
+  align-items: center;
+  justify-content: center;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.button:hover{
+    background-color: whitesmoke;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 6rem;
+  }
+
+  .container h1 {
+    font-size: 2rem;
+    margin-left: 1rem;
+    text-align: center;
+    word-spacing: normal;
+  }
+
+  .container h2 {
+    margin-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  .projects {
+    flex-direction: column;
+    padding: 0 1rem;
+    gap: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  .project {
+    width: 100%;
+    height: auto;
+  }
+
+  .project h3 {
+    font-size: 1.8rem;
+    margin-left: 1rem;
+  }
+
+  .projectDescription {
+    font-size: 1rem;
+    margin: 0 1rem;
+  }
+
+  .button {
+    width: 90%;
+    height: 2.5rem;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+  }
+}
