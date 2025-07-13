@@ -11,7 +11,7 @@ export default function contact () {
   return (
     <div className={styles.contact}>
       <h1 className={kaushan.className}>Get in <span className={styles.highlight}>touch</span></h1>
-      <form action="https://formsubmit.co/revanth.pandt@gmail.com" method="POST" className={styles.form}>
+      <form action="https://formsubmit.co/revanth.pandt@gmail.com" method="POST" target="_self" rel="noreferrer" className={styles.form}>
         <label htmlFor="name">Name</label>
         <input type="text" id="name" name="name" required />
 
