@@ -12,7 +12,7 @@ const {
 } = process.env; 
 
 const embedder = new HuggingFaceInferenceEmbeddings({
-  apiKey: process.env.HUGGINGFACE_API_KEY,
+  apiKey: HUGGINGFACE_API_KEY,
   model: "sentence-transformers/all-MiniLM-L6-v2",
 });
 const openai = new OpenAI({
