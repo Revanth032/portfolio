@@ -8,6 +8,7 @@ export default function NavBar() {
      <nav className={styles.navcontainer}>
            <Link className={`${styles.navLink} ${pathname === "/" ? styles.active : ""}`} href="/">About</Link>
           <Link className={`${styles.navLink} ${pathname === "/projects" ? styles.active : ""}`} href="/projects">Projects</Link>
+          <Link className={`${styles.navLink} ${pathname === "/saraa" ? styles.active : ""}`} href="/saraa">saraa</Link>
            <Link className={`${styles.navLink} ${pathname === "/contact" ? styles.active : ""}`} href="/contact">Contact</Link>
         </nav>
 

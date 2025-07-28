@@ -1,0 +1,130 @@
+.container {
+    margin-top: 10rem;
+    margin-left: 20rem;
+    margin-bottom: 10rem;
+    width: 60%;
+    height: 47rem;
+    padding: 40px;
+    background-color: #1a1a1a;
+    border: 1px solid #efd09e;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    overflow-y: scroll;
+     display: flex;
+     flex-direction: column;
+    padding: 16px;
+}
+
+.container::-webkit-scrollbar {
+  display: none;         
+}
+.container:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.container h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.chat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-top: 16px;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.form input {
+  flex: 1;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.submitButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    height: auto;
+    margin: 10rem auto;
+    padding: 16px;
+    border-radius: 12px;
+    overflow-y: auto;
+  }
+
+  .container h1 {
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .chat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .messages {
+    flex: 1;
+    padding: 8px;
+    max-height: 50vh;
+    overflow-y: auto;
+  }
+
+  .form {
+    display: flex;
+    gap: 6px;
+    padding: 6px;
+    border-top: 1px solid #ccc;
+    position: sticky;
+    bottom: 0;
+    background: #1a1a1a;
+  }
+
+  .form input {
+    flex: 1;
+    padding: 6px;
+    font-size: 0.9rem;
+  }
+
+  .submitButton {
+    font-size: 1.2rem;
+    padding: 4px;
+  }
+
+  .bubble {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    border-radius: 14px;
+  }
+}
