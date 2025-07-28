@@ -1,5 +1,5 @@
 import { DataAPIClient } from "@datastax/astra-db-ts";
-import { HuggingFaceTransformersEmbeddings } from "@langchain/community/embeddings/huggingface_transformers";
+import { HuggingFaceInferenceEmbeddings } from "@langchain/community/embeddings/hf";
 import { OpenAI} from "openai";
 import "dotenv/config";
 
@@ -11,8 +11,9 @@ const {
     HUGGINGFACE_API_KEY,
 } = process.env; 
 
-const embedder = new HuggingFaceTransformersEmbeddings({
-  model: "Xenova/all-MiniLM-L6-v2",
+const embedder = new HuggingFaceInferenceEmbeddings({
+  apiKey: process.env.HUGGINGFACE_API_KEY,
+  model: "sentence-transformers/all-MiniLM-L6-v2",
 });
 const openai = new OpenAI({
 	baseURL: "https://router.huggingface.co/v1",
