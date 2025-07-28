@@ -20,7 +20,7 @@
     "ai": "^3.0.19",
     "dotenv": "^16.4.5",
     "next": "15.3.4",
-   "openai": "^4.62.1",
+    "openai": "^4.62.1",
     "pdf-parse": "^1.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -31,10 +31,10 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
-    "@types/react": "^19",
+    "@types/react": "^19.1.8",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
-    "typescript": "^5"
+    "typescript": "^5.8.3"
   }
 }
