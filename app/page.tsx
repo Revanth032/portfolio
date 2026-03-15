@@ -29,7 +29,7 @@ export default function Home() {
       <div className={styles.content}>
         <h1 className={kaushan.className}> I&apos;m Revanth</h1>
         <h2 className = {kaushan.className}><Typewriter  
-        options={{ strings: ['Developer', 'UI/UX Designer', 'Tech Enthusiast'], 
+        options={{ strings: ['SDE @ LTIMindtree'], 
         autoStart: true, 
         loop: true,}}/></h2>
         <p>Hello! Im a passionate developer with a keen interest in creating innovative solutions. Explore my work and lets connect!</p>
@@ -54,10 +54,10 @@ export default function Home() {
       <div className={styles.container1}>
       <h1 className={kaushan.className}>About me</h1>
       <hr/>
-      <p>I’m Revanth — a beginner in the world of tech, quietly learning to build things that matter.
-I may be new to this journey, but I bring with me a steady heart, a curious mind, and a quiet determination to grow. I find comfort in clean code, peace in problem-solving, and pride in small wins that push me forward.
-As an introvert, I observe deeply and speak through the work I create. As a dog lover, I believe in loyalty — to people, to learning, and to doing things with sincerity. And as someone who’s felt the ache of heartbreak, I carry a quiet resilience in everything I do.
-This portfolio is my first step — not perfect, but honest. Thanks for being part of it.</p>
+      <p>I am Revanth, a Software Development Engineer at LTIMindtree with a deep-seated commitment to building resilient, purposeful technology. My journey has evolved into a specialized focus on Android development, 
+        where I balance creating seamless user experiences with a rigorous approach to security and reverse engineering using tools like JADX, Frida, and Ghidra. Driven by a quiet determination and a learner’s mindset, 
+        I am currently immersed in the frontier of AI/ML, actively developing RAG applications and leveraging the Hugging Face ecosystem. I believe in loyalty to the craft and a sincere approach to problem-solving, 
+        ensuring that every project I touch is not only technically sound but built with heart and precision.</p>
 </div>
 
   <div className={styles.container2}>
